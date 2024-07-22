@@ -1,0 +1,20 @@
+:root {
+  --color-font-navbar: white;
+  --background-navbar: #00436d;
+  --background-menus-dropdown: rgba(0, 57, 92, 0.493);
+  --color_one: #00436d;
+  --color_two: #3e5488;
+  --color_three: #6c649f;
+  --color_four: #4673a1;
+  --color_five: #d9f3ff;
+  --color_six: #df9f1f;
+}
+.cabecera {
+  background-color: var(--background-navbar);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 3.2rem;
+  color: var(--color-font-navbar);
+  font-weight: 500;
+}
